@@ -18,8 +18,9 @@ function johnLennonFacts(arrayJLFacts) {
 
 function iLoveTheBeatles (number){
   var ArraryBeatlesLove =[];
+  var i = 0
     do {ArraryBeatlesLove.push ("I love the Beatles!");
-        number+1;
+      i++;
     } while (number <15);
 return ArraryBeatlesLove
 }
