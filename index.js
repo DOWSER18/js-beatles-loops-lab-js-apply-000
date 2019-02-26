@@ -15,7 +15,7 @@ function johnLennonFacts(arrayJLFacts) {
   return arrayJLFacts;
 }
 
-funtion iLoveTheBeatles (n){
+function iLoveTheBeatles (n){
   var EmptyArrary =[];
 
 
