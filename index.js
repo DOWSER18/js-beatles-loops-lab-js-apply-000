@@ -8,7 +8,7 @@ return MusInstr;
 }
 
 function johnLennonFacts(arrayJLFacts) {
-  var i = 0
+  var i = 0;
     while (i < arrayJLFacts.length) {
       arrayJLFacts[i] += '!!!';
       i++;
