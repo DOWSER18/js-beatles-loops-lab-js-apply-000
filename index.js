@@ -6,11 +6,11 @@ for (var i = 0; i < musicians.length; i++) {
 return MusInstr;
 }
 
-function johnLennonFacts(array) {
+function johnLennonFacts(arrayJLFacts) {
   var i = 0
-  while (i < array.length) {
-    array[i] += '!!!';
+  while (i < arrayJLFacts.length) {
+    arrayJLFacts[i] += '!!!';
     i++;
   }
-  return array;
+  return arrayJLFacts;
 }
