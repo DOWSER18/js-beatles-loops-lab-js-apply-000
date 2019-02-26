@@ -22,6 +22,6 @@ function iLoveTheBeatles (n){
     do {ArraryBeatlesLove.push ("I love the beatles!");
         i++;
 
-    } while (i < n & n <15);
+    } while (i < n && n <15);
 return ArraryBeatlesLove
 }
