@@ -6,13 +6,12 @@ for (var i = 0; i < musicians.length; i++) {
 return MusInstr;
 }
 
-function johnLennonFacts (){
-  var ExclamationFacts = [];
-  let facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
-  var i = 0;
-    while (i < facts.length) {
-      ExclamationFacts.push(facts[i] +"!!!");
-      i ++;
+function johnLennonFacts(array) {
+  var i = 0
+  while (i < array.length) {
+    array[i] += '!!!';
+    i++;
+  }
+  return array;
 }
-return ExclamationFacts
-}
+
